@@ -1,0 +1,97 @@
+html {
+  font-family: "Noto Sans Japanese-Normal", sans-serif !important;
+}
+
+header {
+  box-shadow: 0px 1px 2px rgb(220, 220, 220);
+}
+
+nav {
+  width: 1190px;
+  margin: 0 auto;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 90px;
+  height: 45px;
+  object-fit: contain;
+  margin: auto 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navList {
+  height: 90px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.navBtn {
+  /* line-height: 90px; */
+  color: #505563;
+}
+
+.navBtn:hover {
+  color: #ff6e06;
+}
+
+.navReserve {
+  width: 188px;
+  background-color: #da3743;
+  color: white;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  line-height: 39px;
+  /* align-self: center; */
+  text-justify: center;
+  text-align: center;
+  border-radius: 19.5px;
+}
+
+.slogan {
+  width: 1190px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.sloganTitle {
+  padding: 100px 0 0;
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.orange {
+  color: #ff6337;
+}
+
+.sloganEnglish {
+  font-weight: 900;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.sloganBgIMG {
+  background-image: url(src/device.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 55vw;
+}
+
+.sloganText {
+  color: #505563;
+  font-size: 12pt;
+  line-height: 2;
+  margin-bottom: 40px;
+}
+
+.sloganBtn {
+  background-color: #064c8c;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 7px;
+  margin-bottom: 40px;
+}
