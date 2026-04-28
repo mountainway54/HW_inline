@@ -1,9 +1,15 @@
 html {
   font-family: "Noto Sans Japanese-Normal", sans-serif !important;
+  line-height: 2;
+  color: #252935;
 }
 
 header {
   box-shadow: 0px 1px 2px rgb(220, 220, 220);
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  background-color: white;
 }
 
 nav {
@@ -12,6 +18,7 @@ nav {
   display: flex;
   align-content: center;
   justify-content: space-between;
+  background-color: white;
 }
 
 .logo {
@@ -94,4 +101,103 @@ nav {
   padding: 12px 20px;
   border-radius: 7px;
   margin-bottom: 40px;
+}
+
+.worldBgIMG {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url("src/BlankMap-World.png");
+  background-repeat: no-repeat;
+  background-size: 80vw;
+  background-position: top;
+}
+
+.world {
+  height: 600px;
+  padding: 200px;
+  font-size: 17.33333px;
+  color: #333333;
+  text-align: center;
+}
+
+.countries {
+  margin: 60px auto;
+  display: flex;
+  width: 1420px;
+}
+
+.country {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.countryIcon {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+}
+
+.tools {
+  text-align: center;
+}
+
+.toolsBg {
+  background-image: url(src/yellowcircle.svg);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: -100px 500px;
+}
+
+.toolstitle {
+  font-size: 32px;
+  font-family: "Noto Sans Japanese-Normal" sans-serif !important;
+  font-weight: 700;
+}
+
+.smalltitle {
+  font-size: smaller;
+}
+
+.tool {
+  display: flex;
+  gap: 50px;
+  width: 1200px;
+  margin: 40px auto;
+}
+.toolImg {
+  width: 500px;
+  margin: auto auto;
+  box-shadow: 10px 10px 40px rgb(220, 220, 220);
+  border-radius: 20px;
+}
+
+.toolList {
+  padding: 0 20px;
+  font-size: 24px;
+  text-align: left;
+}
+
+.toolList ul {
+  color: #064c8c;
+}
+
+.toolList li {
+  margin-top: 40px;
+  color: #252935;
+  display: flex;
+}
+
+.toolList p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.toolList img {
+  width: 44px;
+  height: 44px;
+  margin: 10px 40px 0 0;
+  opacity: 0.5;
 }
